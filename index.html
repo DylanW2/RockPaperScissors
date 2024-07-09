@@ -2,10 +2,26 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
         <script src="script.js"></script>
     </head>
     <body>
-        <input id="input" type="text" placeholder="Type and press Enter"/>
-        <div id="output"></div>
+        <h1>Rock. Paper. Scissors</h1>
+        <p>Be the first to win 5 rounds</p>
+        <div id="game">
+            <div class="gameImage"><img id="playerDecisionImage" src="./images/rock.png" alt="rock" height="200" width="auto"></div>
+            <div class="gameImage"><img id="cpuDecisionImage" src="./images/rock.png" alt="rock" height="200" width="auto"></div>
+        </div>
+        <div id="scores">
+            <h2 id="playerScore">Player: 0</h2>
+            <h2 id="outcome"></h2>
+            <h2 id="cpuScore">CPU: 0</h2>
+        </div>
+        <button id="againButton">Play Again?</button>
+        <div id="options">
+            <button class="option" id="rock"><img src="./images/rock.png" alt="rock" height="160" width="auto"></button>
+            <button class="option" id="paper"><img src="./images/paper.png" alt="paper" height="170" width="auto"></button>
+            <button class="option" id="scissors"><img class="scissors" src="./images/scissorsplayer.png" alt="scissors" height="auto" width="240"></button>
+        </div>
     </body>
 </html>
