@@ -1,2 +1,2 @@
 # RockPaperScissors
-Hell yea man
+A simple childhood past time brought to the comfort of your screen
